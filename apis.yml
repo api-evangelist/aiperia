@@ -1,8 +1,24 @@
 aid: aiperia
 name: Aiperia
-description: Aiperia is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aiperia (formerly PlanerAI) is a German AI company whose SaaS platform automates
+  demand forecasting and fresh-food supply-chain planning from production through to the end
+  consumer. Its machine-learning models predict fresh-food demand up to 21 days ahead using
+  around 150 external factors, then generate automated order and production suggestions for
+  bakeries and self-service stations, food manufacturers, and supermarkets to reduce food
+  waste and overproduction. Aiperia is a portfolio company of Earlybird Venture Capital.
 url: https://raw.githubusercontent.com/api-evangelist/aiperia/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aiperia.com/wp-content/uploads/2024/02/aiperia-logo_RGB_quer2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +30,33 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Demand Forecasting
+- Supply Chain
+- Retail
+- Food
+- Bakery
+- Planning
 apis: []
+common:
+- type: Website
+  url: https://aiperia.com
+- type: Blog
+  url: https://aiperia.com/news
+- type: Support
+  url: https://aiperia.com/kontakt
+- type: PrivacyPolicy
+  url: https://aiperia.com/datenschutzerklaerung
+- type: DomainSecurity
+  url: security/aiperia-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
