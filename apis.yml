@@ -7,6 +7,17 @@ description: Aiperia (formerly PlanerAI) is a German AI company whose SaaS platf
   bakeries and self-service stations, food manufacturers, and supermarkets to reduce food
   waste and overproduction. Aiperia is a portfolio company of Earlybird Venture Capital.
 url: https://raw.githubusercontent.com/api-evangelist/aiperia/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
